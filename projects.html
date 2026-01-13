@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Himanshu Mishra</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #0f172a;
+      color: #e5e7eb;
+      line-height: 1.6;
+      padding-top: 70px; /* 👈 IMPORTANT for fixed nav */
+    }
+
+    /* Top navigation bar */
+    .top-nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(2, 6, 23, 0.9);
+      backdrop-filter: blur(8px);
+      display: flex;
+      justify-content: center;
+      gap: 32px;
+      padding: 16px 0;
+      z-index: 1000;
+    }
+
+    .top-nav a {
+      color: #e5e7eb;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .top-nav a:hover {
+      color: #38bdf8;
+    }
+
+    header {
+      padding: 80px 10% 40px;
+      text-align: center;
+    }
+
+    header p {
+      max-width: 700px;
+      margin: 20px auto 0;
+      color: #cbd5f5;
+    }
+
+    h1 {
+      font-size: 2.6rem;
+      margin-bottom: 0;
+    }
+
+    section {
+      padding: 40px 10% 80px;
+    }
+
+    h2 {
+      color: #38bdf8;
+      margin-top: 0;
+    }
+
+    .project {
+      background: #020617;
+      padding: 30px;
+      border-radius: 14px;
+      margin-top: 40px;
+      border: 1px solid #1e293b;
+    }
+
+    .project p {
+      margin: 10px 0;
+    }
+
+    .tech {
+      margin-top: 14px;
+      color: #94a3b8;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      padding: 30px 10%;
+      text-align: center;
+      color: #94a3b8;
+    }
+
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+      font-weight: 600;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- ✅ TOP NAVIGATION -->
+<nav class="top-nav">
+  <a href="index.html">Home</a>
+  <a href="projects.html">Projects</a>
+  <a href="skills.html">Skills</a>
+  <a href="Himanshu_M_Resume.pdf" target="_blank">Resume</a>
+</nav>
+
+<header>
+  <h1>Projects</h1>
+  <p>End-to-end data analytics and data engineering projects with measurable business impact.</p>
+</header>
+
+<section>
+
+  <div class="project">
+    <h2>News Sentiment Analytics ETL Pipeline</h2>
+    <p><strong>Problem:</strong> Extract and analyze real-time sentiment from daily news headlines.</p>
+    <p><strong>Solution:</strong> Designed and implemented an automated ETL pipeline to scrape news data, perform sentiment analysis, and persist results in MySQL for analytics.</p>
+    <p class="tech"><strong>Tech:</strong> Python, BeautifulSoup, TextBlob, MySQL</p>
+  </div>
+
+  <div class="project">
+    <h2>RFM Customer Segmentation (eCommerce)</h2>
+    <p><strong>Problem:</strong> Identify high-value customers for targeted marketing.</p>
+    <p><strong>Solution:</strong> Performed RFM-based customer segmentation on 500K+ transactional records using SQL and Python to support targeted marketing strategies.</p>
+    <p class="tech"><strong>Tech:</strong> SQL, Python, Excel</p>
+  </div>
+
+  <div class="project">
+    <h2>SAP BW Enterprise Reporting (DXC Technology)</h2>
+    <p><strong>Problem:</strong> Slow ETL and reporting performance in enterprise environment.</p>
+    <p><strong>Solution:</strong> Optimized enterprise-grade ETL pipelines, data models, and queries within SAP BW to improve reporting performance and system reliability.</p>
+    <p class="tech"><strong>Tech:</strong> SAP BW/4HANA, BEx Analyzer</p>
+    <p><em>Code not public due to enterprise restrictions.</em></p>
+  </div>
+
+</section>
+
+<footer>
+  <p><a href="index.html">← Back to Home</a></p>
+</footer>
+
+</body>
+</html>
